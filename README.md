@@ -5,9 +5,18 @@ The task at hand was to create an interactive portfolio page. This project was b
 
 ## Usage
 The following objectives that were completed to fulfill creating a working portfolio page are as follows...
-* l
+* Created a header that includes my name, avatar, and a naviagtion menu with links to sections about them, my work, and contact info
+* Ensured that the UI scrolls to corresponding section when one of the links in the navigation bar is selected
+* Adjusted the webpage according to different views depending on the platform
 
 ## Screenshot
+Desktop View
+![Desktop View](./assets/DesktopView.png)
+
+Tablet View
+![Tablet View](./assets/TabletView.png)
+
+![Mobile View](./assets/MobileView.png)
 
 ## License
 MIT License
