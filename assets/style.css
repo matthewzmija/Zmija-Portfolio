@@ -14,6 +14,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  h3{
+    font-size: 1.5rem;
+  }
   
   /*Header, Navigation Bar, and Background Image portion on the top of the page*/
   header {
@@ -154,6 +158,13 @@
     width: 100%;
     height: 100%;
     border: 5px solid #69bac5;
+    opacity: 0.6;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .image-container img:hover{
+    opacity: 1;
+    transition: all 0.1s ease-in-out;
   }
   
   #image-container-1 {
@@ -161,6 +172,15 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+  }
+
+  .image-titles{
+    background-color: #69bac5;
+    position: relative;
+    left: 0px;
+    bottom: 70px;
+    display: inline-block;
+    padding: 10px;
   }
   
   /* Contact portion on the bottom of the page*/
